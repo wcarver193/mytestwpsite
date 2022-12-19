@@ -15,8 +15,8 @@
 					$address = get_post_meta(get_the_ID(),'bebe_address',true);
 					$api_key_googlemap = get_post_meta(get_the_ID(),'bebe_googleapi',true);
 
-					//echo do_shortcode('[pw_map address="'.esc_attr($address).'" width="490px" height="340px" key="'.esc_attr($api_key_googlemap).'"]');
-				    echo do_shortcode('[pw_map address="New York City" width="490px" height="340px" key="YOUR API KEY"]');
+					echo do_shortcode('[pw_map address="'.esc_attr($address).'" width="490px" height="340px" key="'.esc_attr($api_key_googlemap).'"]');
+				               //у меня нет API KEY, поэтому карта и не выводится
 					?>
 				
 				
